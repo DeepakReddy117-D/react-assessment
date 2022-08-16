@@ -33,6 +33,7 @@ const logoutHandler = () => {
       toast.success("Log out")
     localStorage.removeItem("signinData")
     navigate("/");
+    console.log("depak")
 
   },5000);
   }
